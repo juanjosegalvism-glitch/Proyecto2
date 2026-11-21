@@ -1,0 +1,19 @@
+# Ambiente virtual y caches de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Llaves de AWS: NUNCA al repositorio
+*.pem
+.env
+
+# Corridas locales de MLflow (los soportes van como capturas en el reporte)
+mlruns/
+mlartifacts/
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
